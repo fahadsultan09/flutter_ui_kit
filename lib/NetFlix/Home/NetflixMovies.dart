@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_rating_bar/flutter_rating_bar.dart';
 
 
 class MoviesScreen extends StatefulWidget {
@@ -23,7 +24,10 @@ class _MoviesScreenState extends State<MoviesScreen> {
             crossAxisAlignment: CrossAxisAlignment.start,
             children: <Widget>[
               Stack(
+                fit: StackFit.passthrough,
                 children: <Widget>[
+                  
+
                   Container(
                 child: Image.asset(_movies["img"],fit: BoxFit.cover,),
                 height: MediaQuery.of(context).size.height*1.5/3,
@@ -46,18 +50,63 @@ class _MoviesScreenState extends State<MoviesScreen> {
                  color: Colors.black,
                  child: Padding(
                    padding: EdgeInsets.all(10.0),
-                   child: Row(
-                   crossAxisAlignment: CrossAxisAlignment.start,
-                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                   children: <Widget>[
+                   child: Column(
+                     crossAxisAlignment: CrossAxisAlignment.start,
                      
-                     getIcons(Icons.thumb_up,"Like"),
-                     getIcons(Icons.add,"Wish List"),
-                     getIcons(Icons.share,"Share"),
-                     getIcons(Icons.save_alt,"Download"),
-                     
-                   ],
-                 ),
+                     children: <Widget>[
+                       Row(
+                       crossAxisAlignment: CrossAxisAlignment.start,
+                       mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                       children: <Widget>[
+                         getIcons(Icons.thumb_up,"Like"),
+                         getIcons(Icons.add,"Wish List"),
+                         getIcons(Icons.share,"Share"),
+                         getIcons(Icons.save_alt,"Download"),
+                          
+                       ],
+                        ),
+                            SizedBox(height: 20.0,),
+                            Row(
+                              mainAxisAlignment: MainAxisAlignment.start,
+                              children: <Widget>[
+                                Text(_movies["name"]+" ",style: TextStyle(color: Colors.grey,fontWeight: FontWeight.w800,fontSize: 25.0),),
+                                Text("(2010 - Now)",style: TextStyle(color: Colors.grey,fontWeight: FontWeight.w800,fontSize: 15.0),),
+                                
+                              ],
+                            ),
+               
+                            Row(
+                              mainAxisAlignment: MainAxisAlignment.start,
+
+                              children: <Widget>[
+                                    Align(
+                            child: Container(
+                              height: 30,
+                              width: 30,
+                              // margin: EdgeInsets.only(top: 40, left: 40, right: 40),
+                              decoration: new BoxDecoration(
+                                color: Colors.red,
+                                border: Border.all(color: Colors.black, width: 0.0),
+                                borderRadius: new BorderRadius.all(Radius.elliptical(100, 50)),
+                              ),
+                              child: Center(child: Text('10'+"+"),)
+                            ),
+                          ),
+                          RatingBarIndicator(
+                            rating: 4,
+                            itemBuilder: (context, index) => Icon(
+                                Icons.star,
+                                color: Colors.amber,
+                            ),
+                            itemCount: 5,
+                            itemSize: 20.0,
+                            direction: Axis.horizontal,
+                          ),
+                              ],
+                            )
+                
+                     ],
+                   ),
                  )
                )
             ],
@@ -81,8 +130,3 @@ return Column(
 );
 
 }
-
-// Padding(
-//                  padding: EdgeInsets.all(30.0),
-//                  child: Text(_movies["name"],style: TextStyle(color: Colors.grey,fontWeight: FontWeight.w800,fontSize: 20.0),),
-//                ),

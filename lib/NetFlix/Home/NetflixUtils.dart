@@ -24,6 +24,23 @@ List movies = [
     "name":"BirdBox",
     "img":"assets/BirdBox.jpg",
   },
+  {
+    "name":"You",
+    "img":"assets/you.jpg",
+  },
+  {
+    "name":"Lucifer",
+    "img":"assets/lucifer.jpg",
+  },
+  {
+    "name":"SomeHow",
+    "img":"assets/SH.png",
+  },
+  {
+    "name":"Sense",
+    "img":"assets/sense.jpg",
+  },
+
 ];
 
 List trending = [

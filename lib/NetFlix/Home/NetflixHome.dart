@@ -3,6 +3,7 @@ import 'package:carousel_slider/carousel_slider.dart' show CarouselSlider;
 import 'package:flutter_ui_kit/NetFlix/Downloads/Downloads.dart';
 import 'package:flutter_ui_kit/NetFlix/Home/NetflixMovies.dart';
 import 'package:flutter_ui_kit/NetFlix/Home/NetflixUtils.dart';
+import 'package:flutter_ui_kit/NetFlix/Home/SeeAll.dart';
 
 
 class NetflixHome extends StatefulWidget {
@@ -72,7 +73,17 @@ int index = 0;
                       mainAxisAlignment: MainAxisAlignment.spaceBetween,
                       children: <Widget>[
                         Text("Trending",style: TextStyle(fontWeight: FontWeight.w500,fontSize: 20.0),),
-                        Icon(Icons.arrow_forward,),
+                        GestureDetector(
+                          onTap: (){
+                            Navigator.of(context).pushReplacement(MaterialPageRoute(builder: (context)=>SeeAll()));
+                          },
+                          child: new Row(
+                            children: <Widget>[
+                              Text("See All"),
+                              Icon(Icons.arrow_forward,),
+                            ],
+                          ),
+                        )
                     ],),
                   ),
                   getTrendingItems(context),
