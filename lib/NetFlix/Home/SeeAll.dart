@@ -19,7 +19,7 @@ class _SeeAllState extends State<SeeAll> {
       backgroundColor: Colors.black12,
       body: Container(
             child: new StaggeredGridView.countBuilder(
-  crossAxisCount: 4,
+  crossAxisCount: 4 ,
   itemCount: netflix.length,
   itemBuilder: (BuildContext context, int index) => new Container(
       color: Colors.white,

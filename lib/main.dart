@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_ui_kit/CloudEnergy/Home.dart';
 
 import 'NetFlix/Home/NetflixHome.dart';
 
@@ -14,8 +15,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
 
       ),
-      // home: Youtube(),
-      home: NetflixHome(),
+      home: CloudEnergyHome(),
 
     );
   }
