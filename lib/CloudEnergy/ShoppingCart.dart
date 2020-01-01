@@ -35,7 +35,7 @@ class _CartScreenState extends State<CartScreen> {
         ),
       ),
       trailing: Text(
-        '\$${cart[index].price.toStringAsFixed(2)}',
+        '\Rs ${cart[index].price.toStringAsFixed(2)}',
         style: TextStyle(
           color: Colors.orange,
           fontSize: 16.0,
@@ -50,6 +50,7 @@ class _CartScreenState extends State<CartScreen> {
     return Scaffold(
       backgroundColor: Colors.white,
       appBar: AppBar(
+        brightness: Brightness.dark,
         backgroundColor: Colors.white,
         title: Text(
           'Shopping Cart (${cart.length})',
@@ -70,7 +71,7 @@ class _CartScreenState extends State<CartScreen> {
       bottomSheet: Container(
         height: 50.0,
         decoration: BoxDecoration(
-          borderRadius: BorderRadius.circular(10.0),
+          // borderRadius: BorderRadius.circular(10.0),
   gradient: LinearGradient(
     begin: Alignment.topRight,
     end: Alignment.bottomLeft,

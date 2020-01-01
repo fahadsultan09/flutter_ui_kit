@@ -27,7 +27,9 @@ class _productScreenState extends State<productScreen> {
           title: Text("Cloud Energy",style: TextStyle(fontSize: screenAwareSize(18.9, context),fontFamily: ""),),
           backgroundColor: Colors.transparent,
           elevation: 0.0,
-          leading: IconButton(onPressed: (){}
+          leading: IconButton(onPressed: (){
+            Navigator.pop(context);
+          }
           ,icon: Icon(Icons.arrow_back,size: screenAwareSize(20.0, context),),),
           
           centerTitle: true,

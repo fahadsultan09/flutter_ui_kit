@@ -1,11 +1,12 @@
 
-import 'package:flutter_ui_kit/CloudEnergy/ProductCoursel_first.dart';
 import 'package:flutter_ui_kit/CloudEnergy/ShoppingCart.dart';
 import 'package:flutter_ui_kit/CloudEnergy/Utils.dart';
 import 'package:carousel_slider/carousel_slider.dart' show CarouselSlider;
 
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+
+import 'ProductCoursel.dart';
 
 class CloudEnergyHome extends StatefulWidget {
   @override
@@ -18,19 +19,96 @@ class _CloudEnergyHomeState extends State<CloudEnergyHome> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      drawer: Drawer(
+
+        elevation: 1.0,
+        child: Container(
+          child: Stack(fit:StackFit.expand,children: <Widget>[
+
+            Image.asset("assets/running.jpg",fit: BoxFit.cover,color: Colors.black87,colorBlendMode: BlendMode.darken,),
+            ListView(
+          // Important: Remove any padding from the ListView.
+          padding: EdgeInsets.zero,
+          children: <Widget>[
+            DrawerHeader(
+              child:Text('Navigation Drawer',style: TextStyle(color: Colors.white,)),
+              decoration: BoxDecoration(
+                // color: Colors.blue,
+              ),
+            ),
+            ListTile(
+              // trailing: Text(),
+              leading: Icon(Icons.home,color: Colors.white70,),
+              title: Text('Home',style: TextStyle(color: Colors.white70,)),
+              onTap: () {
+                // Update the state of the app
+                // ...
+                // Then close the drawer
+                Navigator.pop(context);
+              },
+            ),
+            ListTile(
+              // trailing: Text(),
+              leading: Icon(Icons.shopping_basket,color: Colors.white70,),
+              title: Text('Orders',style: TextStyle(color: Colors.white70,)),
+              onTap: () {
+                // Update the state of the app
+                // ...
+                // Then close the drawer
+                Navigator.pop(context);
+              },
+            ),
+            ListTile(
+              // trailing: Text(),
+              leading: Icon(Icons.account_balance_wallet,color: Colors.white70,),
+              title: Text('Wallet',style: TextStyle(color: Colors.white70,)),
+              onTap: () {
+                // Update the state of the app
+                // ...
+                // Then close the drawer
+                Navigator.pop(context);
+              },
+            ),
+            ListTile(
+              // trailing: Text(),
+              leading: Icon(Icons.notification_important,color: Colors.white70,),
+              title: Text('Notifications',style: TextStyle(color: Colors.white70,)),
+              onTap: () {
+                // Update the state of the app
+                // ...
+                // Then close the drawer
+                Navigator.pop(context);
+              },
+            ),
+            ListTile(
+              // trailing: Text(),
+              leading: Icon(Icons.sentiment_satisfied,color: Colors.white70,),
+              title: Text('Feedback',style: TextStyle(color: Colors.white70,)),
+              onTap: () {
+                // Update the state of the app
+                // ...
+                // Then close the drawer
+                Navigator.pop(context);
+              },
+            ),
+          ],
+        ),
+        ],)
+        ),
+      ),
       // backgroundColor: ,
       appBar: AppBar(
         centerTitle: true,
-        backgroundColor: Colors.white,
-          title: Text("Cloud Energy",style: TextStyle(fontSize: screenAwareSize(18.9, context),color: Colors.black),),
-        leading: InkResponse(
-            onTap: ()=>print("Menu"),
-                  child: Icon(
-            Icons.menu,
-            size: 20.0,
-            color: Colors.black,
-            ),
-        ),
+        backgroundColor: Colors.black54,
+          title: Text("Cloud Energy",style: TextStyle(fontSize: screenAwareSize(20, context),color: Colors.white),),
+        // leading: InkResponse(
+        //     onTap: ()=>print("Menu"),
+        //           child: Icon(
+        //     Icons.menu,
+        //     size: 20.0,
+        //     color: Colors.black,
+        //     ),
+        // ),
         actions: <Widget>[
           Stack(
             children: <Widget>[

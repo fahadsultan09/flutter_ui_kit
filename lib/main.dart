@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_ui_kit/CloudEnergy/Home.dart';
+import 'package:flutter_ui_kit/landingPage.dart';
 
 import 'NetFlix/Home/NetflixHome.dart';
 
@@ -11,11 +12,10 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      title: 'Flutter Netflix',
+      title: 'Flutter UI Kit',
       theme: ThemeData(
-
       ),
-      home: CloudEnergyHome(),
+      home: LandingPage(),
 
     );
   }
