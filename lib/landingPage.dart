@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_ui_kit/CloudEnergy/Home.dart';
+import 'package:flutter_ui_kit/NIKE/WelcomScreen.dart';
 import 'package:flutter_ui_kit/NetFlix/Home/NetflixHome.dart';
 
 
@@ -24,7 +24,7 @@ class _LandingPageState extends State<LandingPage> {
               },child: Text("Netflix"),),
               RaisedButton(color: Colors.blue,
                 onPressed: (){
-                Navigator.of(context).push(MaterialPageRoute(builder: (context)=>CloudEnergyHome()));
+                Navigator.of(context).push(MaterialPageRoute(builder: (context)=>NikeWelcomScreen()));
               },child: Text("Cloud Energy"),)
             ],
           ),

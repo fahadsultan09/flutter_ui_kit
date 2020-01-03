@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_ui_kit/CloudEnergy/Home.dart';
-import 'package:flutter_ui_kit/landingPage.dart';
 
-import 'NetFlix/Home/NetflixHome.dart';
+import 'package:flutter_ui_kit/landingPage.dart';
+import 'package:flutter_ui_kit/newFile.dart';
+
 
 void main() => runApp(MyApp());
 
@@ -15,8 +15,8 @@ class MyApp extends StatelessWidget {
       title: 'Flutter UI Kit',
       theme: ThemeData(
       ),
-      home: LandingPage(),
-
+      // home: LandingPage(),
+      home: DribleUI(),
     );
   }
 }

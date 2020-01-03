@@ -47,35 +47,7 @@ flutter:
 
   # To add assets to your application, add an assets section, like this:
   assets:
-   - assets/you.jpg
-   - assets/lucifer.jpg
-   - assets/SH.png
-   - assets/sense.jpg
-   - assets/Netflix.png
-   - assets/Inception.jpg
-   - assets/Joker.jpg
-   - assets/Jumanji.jpg
-   - assets/Endgame.jpg
-   - assets/13reasons.jpg
-   - assets/BirdBox.jpg
-   - assets/BlackMirror.jpg
-   - assets/defenders.jpg
-   - assets/HOC.jpg
-   - assets/Mindhunter.jpg
-   - assets/ST.jpg
-   - assets/underground.jpg
-   - assets/Witcher.jpg
-   - assets/YoutubeLogo.jpg
-   - assets/grey.jpg
-   - assets/adidas.png
-   - assets/Plain.png
-   - assets/black.png
-   - assets/FormalShoe.png
-   - assets/banner1.jpg
-   - assets/banner2.jpg
-   - assets/banner3.png
-   - assets/banner4.jpg
-   - assets/running.jpg
+   - assets/images/
 
 
   
