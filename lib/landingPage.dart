@@ -25,7 +25,7 @@ class _LandingPageState extends State<LandingPage> {
               RaisedButton(color: Colors.blue,
                 onPressed: (){
                 Navigator.of(context).push(MaterialPageRoute(builder: (context)=>NikeWelcomScreen()));
-              },child: Text("Cloud Energy"),)
+              },child: Text("Nike"),)
             ],
           ),
         ),
