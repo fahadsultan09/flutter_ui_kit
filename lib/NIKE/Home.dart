@@ -13,7 +13,7 @@ class NIKEHome extends StatefulWidget {
 
 class _NIKEHomeState extends State<NIKEHome> {
 
-  List _list = ["assets/banner1.jpg","assets/banner2.jpg","assets/banner3.png","assets/banner4.jpg"];
+  List _list = ["assets/images/banner1.jpg","assets/images/banner2.jpg","assets/images/banner3.png","assets/images/banner4.jpg"];
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -23,7 +23,7 @@ class _NIKEHomeState extends State<NIKEHome> {
         child: Container(
           child: Stack(fit:StackFit.expand,children: <Widget>[
 
-            Image.asset("assets/running.jpg",fit: BoxFit.cover,color: Colors.black87,colorBlendMode: BlendMode.darken,),
+            Image.asset("assets/images/running.jpg",fit: BoxFit.cover,color: Colors.black87,colorBlendMode: BlendMode.darken,),
             ListView(
           // Important: Remove any padding from the ListView.
           padding: EdgeInsets.zero,
@@ -98,7 +98,7 @@ class _NIKEHomeState extends State<NIKEHome> {
       appBar: AppBar(
         centerTitle: true,
         backgroundColor: Colors.black54,
-          title: Text("Cloud Energy",style: TextStyle(fontSize: screenAwareSize(20, context),color: Colors.white),),
+          title: Text("Nike",style: TextStyle(fontSize: screenAwareSize(20, context),color: Colors.white),),
         // leading: InkResponse(
         //     onTap: ()=>print("Menu"),
         //           child: Icon(
@@ -117,7 +117,7 @@ class _NIKEHomeState extends State<NIKEHome> {
                       child: Icon(
                 Icons.shopping_basket,
                 size: 25.0,
-                color: Colors.black,
+                color: Colors.white,
                 ),
             ),
         ),
@@ -144,7 +144,7 @@ class _NIKEHomeState extends State<NIKEHome> {
                     child: Icon(
               Icons.search,
               size: 25.0,
-              color: Colors.black,
+              color: Colors.white,
               ),
           ),
         ),

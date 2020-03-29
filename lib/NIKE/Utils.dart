@@ -51,35 +51,35 @@ class Product {
 
 final List<Product> products = [
   Product(
-    imageUrl: 'assets/adidas.png',
+    imageUrl: 'assets/images/adidas.png',
     name: 'NIKE Smart Wear',
     price: 791.95,
     description:
         'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. A condimentum vitae sapien pellentesque habitant morbi tristique senectus et. Auctor neque vitae tempus quam pellentesque nec. Volutpat consequat mauris nunc congue nisi. Commodo ullamcorper a lacus vestibulum sed arcu non odio euismod. Aliquam id diam maecenas ultricies mi eget.',
   ),
   Product(
-    imageUrl: 'assets/adidas.png',
+    imageUrl: 'assets/images/adidas.png',
     name: 'Hush puppies Gym Freak',
     price: 1091.99,
     description:
         'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. A condimentum vitae sapien pellentesque habitant morbi tristique senectus et. Auctor neque vitae tempus quam pellentesque nec. Volutpat consequat mauris nunc congue nisi. Commodo ullamcorper a lacus vestibulum sed arcu non odio euismod. Aliquam id diam maecenas ultricies mi eget.',
   ),
   Product(
-    imageUrl: 'assets/adidas.png',
+    imageUrl: 'assets/images/adidas.png',
     name: 'Hush puppies Casual',
     price: 1199.99,
     description:
         'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. A condimentum vitae sapien pellentesque habitant morbi tristique senectus et. Auctor neque vitae tempus quam pellentesque nec. Volutpat consequat mauris nunc congue nisi. Commodo ullamcorper a lacus vestibulum sed arcu non odio euismod. Aliquam id diam maecenas ultricies mi eget.',
   ),
   Product(
-    imageUrl: 'assets/adidas.png',
+    imageUrl: 'assets/images/adidas.png',
     name: 'Bata Jogger',
     price: 8128.99,
     description:
         'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. A condimentum vitae sapien pellentesque habitant morbi tristique senectus et. Auctor neque vitae tempus quam pellentesque nec. Volutpat consequat mauris nunc congue nisi. Commodo ullamcorper a lacus vestibulum sed arcu non odio euismod. Aliquam id diam maecenas ultricies mi eget.',
   ),
   Product(
-    imageUrl: 'assets/adidas.png',
+    imageUrl: 'assets/images/adidas.png',
     name: 'Nike Footwear',
     price: 9900.95,
     description:
@@ -89,28 +89,28 @@ final List<Product> products = [
 
 final List<Product> books = [
   Product(
-    imageUrl: 'assets/adidas.png',
+    imageUrl: 'assets/images/adidas.png',
     name: 'Soft Shoe',
     price: 1844.49,
     description:
         'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. A condimentum vitae sapien pellentesque habitant morbi tristique senectus et. Auctor neque vitae tempus quam pellentesque nec. Volutpat consequat mauris nunc congue nisi. Commodo ullamcorper a lacus vestibulum sed arcu non odio euismod. Aliquam id diam maecenas ultricies mi eget.',
   ),
   Product(
-    imageUrl: 'assets/adidas.png',
+    imageUrl: 'assets/images/adidas.png',
     name: 'Addidas Special',
     price: 1811.40,
     description:
         'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. A condimentum vitae sapien pellentesque habitant morbi tristique senectus et. Auctor neque vitae tempus quam pellentesque nec. Volutpat consequat mauris nunc congue nisi. Commodo ullamcorper a lacus vestibulum sed arcu non odio euismod. Aliquam id diam maecenas ultricies mi eget.',
   ),
   Product(
-    imageUrl: 'assets/adidas.png',
+    imageUrl: 'assets/images/adidas.png',
     name: 'Addidas 3',
     price: 2218.98,
     description:
         'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. A condimentum vitae sapien pellentesque habitant morbi tristique senectus et. Auctor neque vitae tempus quam pellentesque nec. Volutpat consequat mauris nunc congue nisi. Commodo ullamcorper a lacus vestibulum sed arcu non odio euismod. Aliquam id diam maecenas ultricies mi eget.',
   ),
   Product(
-    imageUrl: 'assets/adidas.png',
+    imageUrl: 'assets/images/adidas.png',
     name: 'The Power of Habit',
     price: 10.20,
     description:

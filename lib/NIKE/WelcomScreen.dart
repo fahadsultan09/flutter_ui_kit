@@ -17,14 +17,14 @@ class _NikeWelcomScreenState extends State<NikeWelcomScreen> {
               MaterialPageRoute(builder: (context) => NIKEHome()),
             ));
   }
-  Color _color = HexColor("343244");
+  HexColor _color = HexColor("343244");
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: _color,
       body: Container(
         
-        child: Center(child: Image.asset("assets/tenor.gif")),
+        child: Center(child: Image.asset("assets/images/tenor.gif")),
       ),
     );
   }

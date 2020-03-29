@@ -45,8 +45,10 @@ class ProductCarouselFirst extends StatelessWidget {
             ),
             SizedBox(height: 8.0),
             Text(
+              
               products[index].name,
               style: TextStyle(
+                color: Colors.blue,
                 fontSize: 18.0,
                 fontWeight: FontWeight.bold,
               ),

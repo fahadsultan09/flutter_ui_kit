@@ -2,76 +2,75 @@
 List movies = [
   {
     "name":"Joker",
-    "img":"assets/Joker.jpg",
+    "img":"assets/images/Joker.jpg",
   },
   {
     "name":"Inception",
-    "img":"assets/Inception.jpg",
+    "img":"assets/images/Inception.jpg",
   },
   {
     "name":"Jumanji",
-    "img":"assets/Jumanji.jpg",
+    "img":"assets/images/Jumanji.jpg",
   },
   {
     "name":"Avengers Endgame",
-    "img":"assets/Endgame.jpg",
+    "img":"assets/images/Endgame.jpg",
   },
   {
     "name":"13 reasons why",
-    "img":"assets/13reasons.jpg",
+    "img":"assets/images/13reasons.jpg",
   },
   {
     "name":"BirdBox",
-    "img":"assets/BirdBox.jpg",
+    "img":"assets/images/BirdBox.jpg",
   },
   {
     "name":"You",
-    "img":"assets/you.jpg",
+    "img":"assets/images/you.jpg",
   },
   {
     "name":"Lucifer",
-    "img":"assets/lucifer.jpg",
+    "img":"assets/images/lucifer.jpg",
   },
   {
     "name":"SomeHow",
-    "img":"assets/SH.png",
+    "img":"assets/images/SH.png",
   },
   {
     "name":"Sense",
-    "img":"assets/sense.jpg",
+    "img":"assets/images/sense.jpg",
   },
 
 ];
 
 List trending = [
-
 {
     "name":"The Witcher",
-    "img":"assets/Witcher.jpg",
+    "img":"assets/images/Witcher.jpg",
 },
 {
     "name":"Black Mirror",
-    "img":"assets/BlackMirror.jpg",
+    "img":"assets/images/BlackMirror.jpg",
 },
 {
     "name":"Defenders",
-    "img":"assets/defenders.jpg",
+    "img":"assets/images/defenders.jpg",
 },
 {
     "name":"House of Cards",
-    "img":"assets/HOC.jpg",
+    "img":"assets/images/HOC.jpg",
 },
 {
     "name":"Mindhunter",
-    "img":"assets/Mindhunter.jpg",
+    "img":"assets/images/Mindhunter.jpg",
 },
 {
     "name":"Stranger Things",
-    "img":"assets/ST.jpg",
+    "img":"assets/images/ST.jpg",
 },
 {
     "name":"6 underground",
-    "img":"assets/underground.jpg",
+    "img":"assets/images/underground.jpg",
 },
 ];
 

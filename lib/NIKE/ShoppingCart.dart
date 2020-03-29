@@ -23,13 +23,15 @@ class _CartScreenState extends State<CartScreen> {
       title: Text(
         cart[index].name,
         style: TextStyle(
-          fontSize: 16.0,
+          color: Colors.blue,
+          fontSize: 20.0,
           fontWeight: FontWeight.bold,
         ),
       ),
       subtitle: Text(
         'Color: '+'red',
         style: TextStyle(
+          color: Colors.black,
           fontSize: 16.0,
           fontWeight: FontWeight.bold,
         ),

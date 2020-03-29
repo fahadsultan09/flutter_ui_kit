@@ -1,7 +1,5 @@
 import 'package:flutter/material.dart';
-
 import 'package:flutter_ui_kit/landingPage.dart';
-import 'package:flutter_ui_kit/newFile.dart';
 
 
 void main() => runApp(MyApp());
@@ -14,9 +12,12 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: 'Flutter UI Kit',
       theme: ThemeData(
+        accentColor: Colors.black,
+        brightness: Brightness.dark,
       ),
+      darkTheme: ThemeData(brightness: Brightness.dark,),
       // home: LandingPage(),
-      home: DribleUI(),
+      home: LandingPage(),
     );
   }
 }

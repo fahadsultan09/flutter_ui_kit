@@ -67,7 +67,7 @@ class _ProductScreenUpperPartState extends State<ProductScreenUpperPart> {
 
               Container(
                 
-                child: Image.asset("assets/adidas.png",
+                child: Image.asset("assets/images/adidas.png",
                 fit: BoxFit.cover,
                 width: double.infinity,
                 height: double.infinity,),
@@ -416,7 +416,7 @@ class _ProductScreenLowerPartState extends State<ProductScreenLowerPart> {
                 Positioned(
                   right: -40.0,
                   bottom: -60.0,
-                  child: Image.asset("assets/cart.png",
+                  child: Image.asset("assets/images/cart.png",
                       width: screenAwareSize(190.0, context),
                       height: screenAwareSize(155.0, context),
                       fit: BoxFit.cover),
