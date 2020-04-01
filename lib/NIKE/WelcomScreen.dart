@@ -11,7 +11,7 @@ class _NikeWelcomScreenState extends State<NikeWelcomScreen> {
   void initState() { 
     super.initState();
         new Future.delayed(
-        const Duration(seconds: 3),
+        const Duration(seconds: 2),
         () => Navigator.push(
               context,
               MaterialPageRoute(builder: (context) => NIKEHome()),

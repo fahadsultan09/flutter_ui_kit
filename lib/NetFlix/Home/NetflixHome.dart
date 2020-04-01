@@ -100,13 +100,13 @@ int index = 0;
 
 Widget getNavigation(BuildContext context){
   return Container(
-              width: MediaQuery.of(context).size.width/7,
+              width: MediaQuery.of(context).size.width/6,
               color: Colors.black,
               child: Column(
                 children: <Widget>[
                   Padding(
                     padding: const EdgeInsets.symmetric(horizontal: 15.0,vertical: 50.0),
-                    child: Image.asset("assets/Netflix.png"),
+                    child: Image.asset("assets/images/Netflix.png",fit: BoxFit.cover,),
                   ),
                   Expanded(child: Container(),),
                   GestureDetector(onTap: (){
